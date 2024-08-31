@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+}
+
+.bg{
+    background-image: URL("https://www.medicalbag.com/wp-content/uploads/sites/19/2019/03/facial-scanning-AI_SH__1151270825.jpg");
+    height:100vh;
+    width:100vw;
+    background-size:cover;
+}
+/* Header Styling */
+
+.header{
+    background:rgba(255, 255, 255, .1);
+}
+.nav-bar-img{
+    height:60px;
+    width:70px;
+    border-radius:50%;
+}
+
+.nav-bar{
+    margin:2px;
+    font-size:20px;
+}
+.upload-head{
+    color:#ffffff;
+    font-family: "Caveat";
+    font-weight: bold;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Main Content Area */
+main {
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    backdrop-filter: blur(10px);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Upload Section Styling */
+.upload-section {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.input-class{
+    height:40px;
+    width:400px;
+    border:none;
+}
+
+.upload-section input[type="file"] {
+    margin-top: 10px;
+}
+
+.upload-section button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.upload-section button:hover {
+    background-color: #45a049;
+}
+
+/* Refresh Button Styling */
+.refresh-section {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.refresh-section button {
+    cursor: pointer;
+}
+.reload-img{
+    height:50px;
+    border:0px;
+    width:50px;
+    border-radius: 50%;
+}
+
+/* Results Section Styling */
+.results-section {
+    text-align: center;
+}
+
+.results-section #results {
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    margin-top: 20px;
+    color:#333;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    margin-top: 20px;
+}
+
+.para{
+    font-weight:bold;
+}
